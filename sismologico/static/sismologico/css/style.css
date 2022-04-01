@@ -1,0 +1,177 @@
+.inputform-with-register {
+    width:400px;
+    background-color: #E8F0FE;
+}
+#credenciales{
+    color:white;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.labelform-with-register {
+    width:4rem;
+}
+
+.table{
+    /* font-size: small; */
+    height: 60vh;
+    /* width: 60%; */
+    padding:0;
+    margin:auto;
+}
+#div-table {
+    /* width: 100%; */
+    height: 60vh;
+    overflow:auto;
+}
+#div-datos{
+    padding:1em;
+}
+
+#div-table-title {
+    width:100%;
+    overflow:auto;
+}
+#sidebar {
+    /* background-color:white; */
+    width:100%;
+    height:60%;
+}
+#div-thead{
+    width: 100%;
+} 
+td{
+    font-weight: bold;
+    font-size:large;
+    /* height:0.5vh;  */
+}
+tbody tr{
+    height:100px;
+}
+tr td {
+    height:1vh;
+}
+.ths {
+    font-size: 2.5vh;
+    position:sticky;
+    top: 0; /* Don't forget this, required for the stickiness */
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+html{
+    min-width: 576px;
+}
+#myCarousel {
+    margin: auto;
+    padding:0;
+    width: 50%;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 50vh;
+  }
+#div_principal {
+    padding:0;
+}
+#div_index1{
+    background-color: white;
+}
+footer {
+    padding-left: 0px;
+    margin-left: 0px;
+    background-color: #343A40 ;
+}
+#credenciales2{
+    color:#D2D6D6;
+}
+/* .custom_layout {
+    margin-left:0px;
+} */
+@media (max-width: 768px) {
+    #sidebar {
+        height: 50vh;   
+        padding: 0%; 
+    }
+    #div-table {
+        position: relative;
+        width: 100%;
+        height:50vh;
+        padding:0;
+        margin: 0;
+    }
+    #data2 {
+        font-size: 8px;
+    }
+    .table {
+        /* width: 90%; */
+        height:60vh;
+        margin: auto;
+    } 
+    .container {
+        min-width: 576px;
+    }
+    
+}
+@media (max-width: 576px) {
+    #sidebar {
+        height: 50vh;
+        width:auto; 
+        padding:0;
+        margin: auto;
+    }
+    #div-table{
+        margin:auto;
+        width:100%;
+        height: 50vh;
+    }
+    .table {
+        width: 90%;
+        height:60vh;
+        margin: auto;
+    }
+    #data2 {
+        font-size: 8px;
+    }
+}
+
+/* aqui va la sidebar de la pagina sismo */
+.sidenav2, .sidenava-content {
+    /* height: 100%; */
+    /* position: fixed; */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#e6ffe6;
+    /* overflow-x: hidden; */
+    padding-top: 20px;
+    margin-top: 0%;
+  }
+  
+  .sidenav2 a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav2 a:hover {
+    color: #f1f1f1;
+  }
+  .sismo-ul li{
+      width:100%;
+  }
+  .main {
+    padding: 10px 20px;
+  }
+  
+  /* para la pagina quienes somos */
+ body {
+     background-color:	#F5FFFA;
+ }
+  .div-quienes{
+    background-color:#ffffff;
+  }
+  /* @media screen and (max-height: 450px) {
+    .sidenav2 {padding-top: 15px;}
+    .sidenav2 a {font-size: 18px;}
+  } */
