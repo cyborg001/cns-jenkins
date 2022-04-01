@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'building'
-                sh 'python3 manage.py runserver'
+                bat 'python3 manage.py runserver'
             }
         }
     }
