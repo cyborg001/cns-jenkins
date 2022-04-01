@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bat 'runserver.bat'
+                bat 'python3 manage.py runserver'
             }
         }
     }
